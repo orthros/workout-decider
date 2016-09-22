@@ -34,13 +34,13 @@ var visited = [nodes.length];
 // These are messages that Alexa says to the user during conversation
 
 // This is the intial welcome message
-var welcomeMessage = "Welcome to the workout decider, are you ready to decide?";
+var welcomeMessage = "Welcome to the workout decider, are you ready to figure out how you want to work out?";
 
 // This is the message that is repeated if the response to the initial welcome message is not heard
 var repeatWelcomeMessage = "Say yes to start or no to quit";
 
 // this is the message that is repeated if Alexa does not hear/understand the reponse to the welcome message
-var promptToStartMessage = "Say yes to continue, or no to end the game.";
+var promptToStartMessage = "Say yes to continue, or no to quit.";
 
 // This is the prompt during the game when Alexa doesnt hear or understand a yes / no reply
 var promptToSayYesNo = "Say yes or no to answer the question.";
@@ -49,10 +49,10 @@ var promptToSayYesNo = "Say yes or no to answer the question.";
 var decisionMessage = "I think you should";
 
 // This is the prompt to ask the user if they would like to hear a short description of thier chosen profession or to play again
-var playAgainMessage = "Say 'tell me more' to hear why you should do this, or do you want to decide again?";
+var playAgainMessage = "Say 'tell me more' to hear why you should do this, or do you want to choose again?";
 
 // this is the help message during the setup at the beginning of the game
-var helpMessage = "I will as you some questions that will identify how you should work out. Want to decide?";
+var helpMessage = "I will ask you some questions that will identify how you should work out. Ready?";
 
 // This is the goodbye message when the user has asked to quit the game
 var goodbyeMessage = "Ok, see you soon!";
