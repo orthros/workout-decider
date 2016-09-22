@@ -1,12 +1,3 @@
-/**
- * This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
- * The Intent Schema, Custom Slots, and Sample Utterances for this skill, as well as
- * testing instructions are located at http://amzn.to/1LzFrj6
- *
- * For additional samples, visit the Alexa Skills Kit Getting Started guide at
- * http://amzn.to/1LGWsLG
- */
-
 var Alexa = require('alexa-sdk');
 
 var states = {
@@ -26,11 +17,11 @@ var nodes = [{ "node": 1, "message": "Do you want to be outdoors?", "yes": 2, "n
 
 
 // Answers & descriptions
-             { "node": 8, "message": " play football!", "yes": 0, "no": 0, "description": "Football is a great team sport with plenty of running and requires only a field and a ball." },
-             { "node": 9, "message": " do crossfit!", "yes": 0, "no": 0, "description": "Enter description here." },
-             { "node": 10, "message": " take a swim!", "yes": 0, "no": 0, "description": "Enter description here." },
+             { "node": 8,  "message": " play football!", "yes": 0, "no": 0, "description": "Football is a great team sport with plenty of running and requires only a field and a ball." },
+             { "node": 9,  "message": " do crossfit!", "yes": 0, "no": 0, "description": "Enter description here." },
+             { "node": 10, "message": " take a swim!", "yes": 0, "no": 0, "description": "Swimming burns tremendous ammounts of calories and is a good way to keep cool on a hot summer's day." },
              { "node": 11, "message": " go on a run!", "yes": 0, "no": 0, "description": "Enter description here." },
-             { "node": 12, "message": " play basketball!", "yes": 0, "no": 0, "description": "Enter description here." },
+             { "node": 12, "message": " play basketball!", "yes": 0, "no": 0, "description": "Basketball is a great way to get cardio and train hand eye coordination." },
              { "node": 13, "message": " do crossfit!", "yes": 0, "no": 0, "description": "Enter description here." },
              { "node": 14, "message": " lift weights!", "yes": 0, "no": 0, "description": "Enter description here." },
              { "node": 15, "message": " do yoga!", "yes": 0, "no": 0, "description": "Enter description here." },
